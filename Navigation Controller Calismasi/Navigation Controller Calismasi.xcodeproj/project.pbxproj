@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11083B212A52AFF6007B7BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11083B202A52AFF6007B7BA4 /* AppDelegate.swift */; };
+		11083B232A52AFF6007B7BA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11083B222A52AFF6007B7BA4 /* SceneDelegate.swift */; };
+		11083B252A52AFF6007B7BA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11083B242A52AFF6007B7BA4 /* ViewController.swift */; };
+		11083B282A52AFF6007B7BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11083B262A52AFF6007B7BA4 /* Main.storyboard */; };
+		11083B2A2A52AFF7007B7BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11083B292A52AFF7007B7BA4 /* Assets.xcassets */; };
+		11083B2D2A52AFF7007B7BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11083B2B2A52AFF7007B7BA4 /* LaunchScreen.storyboard */; };
+		11083B382A52AFF7007B7BA4 /* Navigation_Controller_CalismasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11083B372A52AFF7007B7BA4 /* Navigation_Controller_CalismasiTests.swift */; };
+		11083B422A52AFF7007B7BA4 /* Navigation_Controller_CalismasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11083B412A52AFF7007B7BA4 /* Navigation_Controller_CalismasiUITests.swift */; };
+		11083B442A52AFF7007B7BA4 /* Navigation_Controller_CalismasiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11083B432A52AFF7007B7BA4 /* Navigation_Controller_CalismasiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11083B342A52AFF7007B7BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11083B152A52AFF6007B7BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11083B1C2A52AFF6007B7BA4;
+			remoteInfo = "Navigation Controller Calismasi";
+		};
+		11083B3E2A52AFF7007B7BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11083B152A52AFF6007B7BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11083B1C2A52AFF6007B7BA4;
+			remoteInfo = "Navigation Controller Calismasi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11083B1D2A52AFF6007B7BA4 /* Navigation Controller Calismasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigation Controller Calismasi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11083B202A52AFF6007B7BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11083B222A52AFF6007B7BA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		11083B242A52AFF6007B7BA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11083B272A52AFF6007B7BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11083B292A52AFF7007B7BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11083B2C2A52AFF7007B7BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11083B2E2A52AFF7007B7BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11083B332A52AFF7007B7BA4 /* Navigation Controller CalismasiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Navigation Controller CalismasiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11083B372A52AFF7007B7BA4 /* Navigation_Controller_CalismasiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_Controller_CalismasiTests.swift; sourceTree = "<group>"; };
+		11083B3D2A52AFF7007B7BA4 /* Navigation Controller CalismasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Navigation Controller CalismasiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11083B412A52AFF7007B7BA4 /* Navigation_Controller_CalismasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_Controller_CalismasiUITests.swift; sourceTree = "<group>"; };
+		11083B432A52AFF7007B7BA4 /* Navigation_Controller_CalismasiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_Controller_CalismasiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11083B1A2A52AFF6007B7BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11083B302A52AFF7007B7BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11083B3A2A52AFF7007B7BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11083B142A52AFF6007B7BA4 = {
+			isa = PBXGroup;
+			children = (
+				11083B1F2A52AFF6007B7BA4 /* Navigation Controller Calismasi */,
+				11083B362A52AFF7007B7BA4 /* Navigation Controller CalismasiTests */,
+				11083B402A52AFF7007B7BA4 /* Navigation Controller CalismasiUITests */,
+				11083B1E2A52AFF6007B7BA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11083B1E2A52AFF6007B7BA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11083B1D2A52AFF6007B7BA4 /* Navigation Controller Calismasi.app */,
+				11083B332A52AFF7007B7BA4 /* Navigation Controller CalismasiTests.xctest */,
+				11083B3D2A52AFF7007B7BA4 /* Navigation Controller CalismasiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11083B1F2A52AFF6007B7BA4 /* Navigation Controller Calismasi */ = {
+			isa = PBXGroup;
+			children = (
+				11083B202A52AFF6007B7BA4 /* AppDelegate.swift */,
+				11083B222A52AFF6007B7BA4 /* SceneDelegate.swift */,
+				11083B242A52AFF6007B7BA4 /* ViewController.swift */,
+				11083B262A52AFF6007B7BA4 /* Main.storyboard */,
+				11083B292A52AFF7007B7BA4 /* Assets.xcassets */,
+				11083B2B2A52AFF7007B7BA4 /* LaunchScreen.storyboard */,
+				11083B2E2A52AFF7007B7BA4 /* Info.plist */,
+			);
+			path = "Navigation Controller Calismasi";
+			sourceTree = "<group>";
+		};
+		11083B362A52AFF7007B7BA4 /* Navigation Controller CalismasiTests */ = {
+			isa = PBXGroup;
+			children = (
+				11083B372A52AFF7007B7BA4 /* Navigation_Controller_CalismasiTests.swift */,
+			);
+			path = "Navigation Controller CalismasiTests";
+			sourceTree = "<group>";
+		};
+		11083B402A52AFF7007B7BA4 /* Navigation Controller CalismasiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11083B412A52AFF7007B7BA4 /* Navigation_Controller_CalismasiUITests.swift */,
+				11083B432A52AFF7007B7BA4 /* Navigation_Controller_CalismasiUITestsLaunchTests.swift */,
+			);
+			path = "Navigation Controller CalismasiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11083B1C2A52AFF6007B7BA4 /* Navigation Controller Calismasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11083B472A52AFF7007B7BA4 /* Build configuration list for PBXNativeTarget "Navigation Controller Calismasi" */;
+			buildPhases = (
+				11083B192A52AFF6007B7BA4 /* Sources */,
+				11083B1A2A52AFF6007B7BA4 /* Frameworks */,
+				11083B1B2A52AFF6007B7BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Navigation Controller Calismasi";
+			productName = "Navigation Controller Calismasi";
+			productReference = 11083B1D2A52AFF6007B7BA4 /* Navigation Controller Calismasi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11083B322A52AFF7007B7BA4 /* Navigation Controller CalismasiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11083B4A2A52AFF7007B7BA4 /* Build configuration list for PBXNativeTarget "Navigation Controller CalismasiTests" */;
+			buildPhases = (
+				11083B2F2A52AFF7007B7BA4 /* Sources */,
+				11083B302A52AFF7007B7BA4 /* Frameworks */,
+				11083B312A52AFF7007B7BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11083B352A52AFF7007B7BA4 /* PBXTargetDependency */,
+			);
+			name = "Navigation Controller CalismasiTests";
+			productName = "Navigation Controller CalismasiTests";
+			productReference = 11083B332A52AFF7007B7BA4 /* Navigation Controller CalismasiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11083B3C2A52AFF7007B7BA4 /* Navigation Controller CalismasiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11083B4D2A52AFF7007B7BA4 /* Build configuration list for PBXNativeTarget "Navigation Controller CalismasiUITests" */;
+			buildPhases = (
+				11083B392A52AFF7007B7BA4 /* Sources */,
+				11083B3A2A52AFF7007B7BA4 /* Frameworks */,
+				11083B3B2A52AFF7007B7BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11083B3F2A52AFF7007B7BA4 /* PBXTargetDependency */,
+			);
+			name = "Navigation Controller CalismasiUITests";
+			productName = "Navigation Controller CalismasiUITests";
+			productReference = 11083B3D2A52AFF7007B7BA4 /* Navigation Controller CalismasiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11083B152A52AFF6007B7BA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					11083B1C2A52AFF6007B7BA4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					11083B322A52AFF7007B7BA4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 11083B1C2A52AFF6007B7BA4;
+					};
+					11083B3C2A52AFF7007B7BA4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 11083B1C2A52AFF6007B7BA4;
+					};
+				};
+			};
+			buildConfigurationList = 11083B182A52AFF6007B7BA4 /* Build configuration list for PBXProject "Navigation Controller Calismasi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11083B142A52AFF6007B7BA4;
+			productRefGroup = 11083B1E2A52AFF6007B7BA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11083B1C2A52AFF6007B7BA4 /* Navigation Controller Calismasi */,
+				11083B322A52AFF7007B7BA4 /* Navigation Controller CalismasiTests */,
+				11083B3C2A52AFF7007B7BA4 /* Navigation Controller CalismasiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11083B1B2A52AFF6007B7BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11083B2D2A52AFF7007B7BA4 /* LaunchScreen.storyboard in Resources */,
+				11083B2A2A52AFF7007B7BA4 /* Assets.xcassets in Resources */,
+				11083B282A52AFF6007B7BA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11083B312A52AFF7007B7BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11083B3B2A52AFF7007B7BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11083B192A52AFF6007B7BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11083B252A52AFF6007B7BA4 /* ViewController.swift in Sources */,
+				11083B212A52AFF6007B7BA4 /* AppDelegate.swift in Sources */,
+				11083B232A52AFF6007B7BA4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11083B2F2A52AFF7007B7BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11083B382A52AFF7007B7BA4 /* Navigation_Controller_CalismasiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11083B392A52AFF7007B7BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11083B422A52AFF7007B7BA4 /* Navigation_Controller_CalismasiUITests.swift in Sources */,
+				11083B442A52AFF7007B7BA4 /* Navigation_Controller_CalismasiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11083B352A52AFF7007B7BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11083B1C2A52AFF6007B7BA4 /* Navigation Controller Calismasi */;
+			targetProxy = 11083B342A52AFF7007B7BA4 /* PBXContainerItemProxy */;
+		};
+		11083B3F2A52AFF7007B7BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11083B1C2A52AFF6007B7BA4 /* Navigation Controller Calismasi */;
+			targetProxy = 11083B3E2A52AFF7007B7BA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11083B262A52AFF6007B7BA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11083B272A52AFF6007B7BA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11083B2B2A52AFF7007B7BA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11083B2C2A52AFF7007B7BA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11083B452A52AFF7007B7BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11083B462A52AFF7007B7BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11083B482A52AFF7007B7BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Navigation Controller Calismasi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Navigation-Controller-Calismasi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11083B492A52AFF7007B7BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Navigation Controller Calismasi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Navigation-Controller-Calismasi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11083B4B2A52AFF7007B7BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Navigation-Controller-CalismasiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Navigation Controller Calismasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Navigation Controller Calismasi";
+			};
+			name = Debug;
+		};
+		11083B4C2A52AFF7007B7BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Navigation-Controller-CalismasiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Navigation Controller Calismasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Navigation Controller Calismasi";
+			};
+			name = Release;
+		};
+		11083B4E2A52AFF7007B7BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Navigation-Controller-CalismasiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Navigation Controller Calismasi";
+			};
+			name = Debug;
+		};
+		11083B4F2A52AFF7007B7BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Navigation-Controller-CalismasiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Navigation Controller Calismasi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11083B182A52AFF6007B7BA4 /* Build configuration list for PBXProject "Navigation Controller Calismasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11083B452A52AFF7007B7BA4 /* Debug */,
+				11083B462A52AFF7007B7BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11083B472A52AFF7007B7BA4 /* Build configuration list for PBXNativeTarget "Navigation Controller Calismasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11083B482A52AFF7007B7BA4 /* Debug */,
+				11083B492A52AFF7007B7BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11083B4A2A52AFF7007B7BA4 /* Build configuration list for PBXNativeTarget "Navigation Controller CalismasiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11083B4B2A52AFF7007B7BA4 /* Debug */,
+				11083B4C2A52AFF7007B7BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11083B4D2A52AFF7007B7BA4 /* Build configuration list for PBXNativeTarget "Navigation Controller CalismasiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11083B4E2A52AFF7007B7BA4 /* Debug */,
+				11083B4F2A52AFF7007B7BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11083B152A52AFF6007B7BA4 /* Project object */;
+}
